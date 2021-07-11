@@ -392,7 +392,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1431687320}
   - component: {fileID: 1431687321}
-  m_Layer: 0
+  - component: {fileID: 1431687322}
+  m_Layer: 8
   m_Name: PersistentManagerObj
   m_TagString: PersistentManager
   m_Icon: {fileID: 0}
@@ -435,6 +436,23 @@ MonoBehaviour:
   - 
   enemyBoolArr: 00000000000000
   combinedBoolArr: 00000000000000
+--- !u!114 &1431687322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431687319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: ec1d63913733949c8998b13e364fd4b8, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!4 &1685936007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1094824025767539372, guid: e581aa07b878b4e798515dfb6821f57d,
@@ -502,6 +520,16 @@ PrefabInstance:
         type: 3}
       propertyPath: terminalText.Array.data[2]
       value: Verse 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808470564569978647, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282388579216023421, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6354989961920882955, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -572,6 +600,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7066369414426208667, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -3532635374998059899, guid: a6700693bb7f244939f57df2dbc93b2c, type: 3}
@@ -674,11 +707,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 510801646}
     m_Modifications:
-    - target: {fileID: 1094824025767539363, guid: e581aa07b878b4e798515dfb6821f57d,
-        type: 3}
-      propertyPath: m_Lightmapping
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 1094824025767539372, guid: e581aa07b878b4e798515dfb6821f57d,
         type: 3}
       propertyPath: m_RootOrder
@@ -1026,6 +1054,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1872984453296960624}
+    - target: {fileID: 7665416092871515165, guid: 14b552b1c4cda489eb90c616ced5ba14,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14b552b1c4cda489eb90c616ced5ba14, type: 3}
 --- !u!4 &6228342784055405968 stripped
