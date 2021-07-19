@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
     public float verticalSensitivity = 10f;
     public Transform player;
 
-    private float xRotation = 0f;
+    // private float xRotation = 0f;
 
     // Update is called once per frame
     void Update()

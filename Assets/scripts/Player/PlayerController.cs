@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {        if (Input.GetKey("space")) { rb.velocity = transform.forward * forwardSpeed;}
-        else if (Input.GetKey("c")) { rb.velocity = -transform.forward * sideSpeed;}
+        else if (Input.GetKey("v")) { rb.velocity = -transform.forward * sideSpeed;}
         else if (Input.GetKey("w")) { rb.velocity = transform.up * sideSpeed;}
         else if (Input.GetKey("s")) { rb.velocity = -transform.up * sideSpeed;}
         else if (Input.GetKey("a")) { rb.velocity = -transform.right * sideSpeed;}
@@ -48,13 +48,6 @@ public class PlayerController : MonoBehaviour
     void PartialDeath()    {        lifeDots.DarkenDot();        currentLives = currentLives - 1;        if (currentLives <= 0)        {            CompleteDeath();        } else        {            SceneManager.LoadScene(1);            currentHealth = maxHealth;            Debug.Log("Player health " + currentHealth + " Player lives " + currentLives);        }    }
 
     void CompleteDeath()    {        Manager.ResetGame();        SceneManager.LoadScene(1);        currentHealth = maxHealth;        currentLives = maxLives;    }
-
-
-    void Movement(Vector3 direction)
-    {
-        
-    }
-
 
 
     void Fire()    {        GameObject bulletInstance = Instantiate(Bullet, firePoint.position, firePoint.rotation);        bulletInstance.transform.localScale = transform.localScale * 0.19f;        bulletInstance.GetComponent<Rigidbody>().velocity = firePoint.forward * bulletSpeed;    }

@@ -293,6 +293,7 @@ MonoBehaviour:
   firePoint: {fileID: 7153020417808367282}
   fireRate: 4
   bulletSpeed: 60
+  cam: {fileID: 3831198689830060596}
   healthBar: {fileID: 0}
   lifeDots: {fileID: 0}
 --- !u!1 &7153020417738178783

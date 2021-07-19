@@ -9,12 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: 449d70e4bee9dfb1491ba0efab5f349c
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Map1_Lvl1.unity
     guid: 492c6a82ef1854e55b24d794a70b00f1
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
+    path: Assets/Scenes/Map1_Lvl2.unity
     guid: fbfeb52c4ee224b669816714480777c5
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
+    path: Assets/Scenes/Map1_Lvl3.unity
     guid: 7b9d9f11ebaa14f62a9d6cff5d5c96fc
+  - enabled: 1
+    path: Assets/Scenes/Map2_Lvl1.unity
+    guid: fc6d23ac93d534031abbcfbc83b0b403
+  - enabled: 1
+    path: Assets/Scenes/Map2_Lvl2.unity
+    guid: e6f16c816f4be48069de81574ccb5183
+  - enabled: 1
+    path: Assets/Scenes/Map2_Lvl3.unity
+    guid: 61210f128835545c5b3b02477534c4ea
+  - enabled: 1
+    path: Assets/Scenes/Map3_Lvl1.unity
+    guid: 403663d0e573946c189367dd3bb31333
+  - enabled: 1
+    path: Assets/Scenes/Map3_Lvl2.unity
+    guid: fd540f0e7868c4c8aa1a71669b44fa8b
+  - enabled: 1
+    path: Assets/Scenes/Map3_Lvl3.unity
+    guid: 6c4351226842e41d6b7744d09d5b7529
   m_configObjects: {}
