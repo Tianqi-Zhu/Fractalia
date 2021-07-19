@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6664784558970467862}
   - component: {fileID: -9066589622487486464}
   - component: {fileID: 2584713257694908973}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7891287095238657917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3737848751737846293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8909987575256570319}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
