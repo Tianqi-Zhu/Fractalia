@@ -521,6 +521,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
+      propertyPath: bulletSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
       propertyPath: patrolSideLen
       value: 5
       objectReference: {fileID: 0}
@@ -532,7 +537,12 @@ PrefabInstance:
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
       propertyPath: triggerRadius
-      value: 30
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: standingDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -659,6 +669,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
+      propertyPath: bulletSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
       propertyPath: patrolSideLen
       value: 5
       objectReference: {fileID: 0}
@@ -670,7 +685,12 @@ PrefabInstance:
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
       propertyPath: triggerRadius
-      value: 30
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: standingDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -1236,6 +1256,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
+      propertyPath: bulletSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
       propertyPath: patrolSideLen
       value: 5
       objectReference: {fileID: 0}
@@ -1247,7 +1272,12 @@ PrefabInstance:
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
       propertyPath: triggerRadius
-      value: 30
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: standingDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -1651,6 +1681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
+      propertyPath: bulletSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
       propertyPath: patrolSideLen
       value: 5
       objectReference: {fileID: 0}
@@ -1662,7 +1697,12 @@ PrefabInstance:
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
       propertyPath: triggerRadius
-      value: 30
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: standingDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}

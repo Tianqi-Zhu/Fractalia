@@ -342,6 +342,10 @@ MonoBehaviour:
   - 
   enemyBoolArr: 00000000000000
   combinedBoolArr: 00000000000000
+  addHealthAmount: 30
+  shiedDuration: 0
+  healthPotionNo: 0
+  shieldNo: 0
 --- !u!4 &456973256
 Transform:
   m_ObjectHideFlags: 0
@@ -550,7 +554,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1671282573}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1190355694
 MonoBehaviour:
@@ -608,6 +612,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
+      propertyPath: patrolMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
       propertyPath: patrolSideLen
       value: 15
       objectReference: {fileID: 0}
@@ -620,6 +629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerRadius
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: standingDistance
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -978,6 +992,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
+      propertyPath: patrolMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
       propertyPath: patrolSideLen
       value: 15
       objectReference: {fileID: 0}
@@ -990,6 +1009,11 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerRadius
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: standingDistance
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -1386,6 +1410,7 @@ Transform:
   - {fileID: 1386528707}
   - {fileID: 379352318}
   - {fileID: 1214374513}
+  - {fileID: 5367990452641747013}
   - {fileID: 1190355693}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1395,4 +1420,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6354989961920882955, guid: a6700693bb7f244939f57df2dbc93b2c,
     type: 3}
   m_PrefabInstance: {fileID: 1444998646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5367990452641747012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1671282573}
+    m_Modifications:
+    - target: {fileID: 4696467595681661313, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_Name
+      value: Health Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd, type: 3}
+--- !u!4 &5367990452641747013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5837776553695338602, guid: 56f7e0e13f4ba4a23852d7b998e5c8bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367990452641747012}
   m_PrefabAsset: {fileID: 0}

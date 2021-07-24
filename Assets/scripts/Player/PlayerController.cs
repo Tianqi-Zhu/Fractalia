@@ -42,7 +42,8 @@ public class PlayerController : MonoBehaviour
         {
             timeToNextFire = Time.time + 1 / fireRate;
             Fire();
-        }
+        }        if (Input.GetKey(KeyCode.LeftShift))        {            UseHealthPotion();        }
+
     }    public void TakeDamage(float amount)    {        currentHealth -= amount;        healthBar.SetHealth(currentHealth);        Debug.Log("Player health " + currentHealth + " Player lives " + currentLives);        if (currentHealth <= 0f)        {            PartialDeath();        }    }
 
     void PartialDeath()    {        lifeDots.DarkenDot();        currentLives = currentLives - 1;        if (currentLives <= 0)        {            CompleteDeath();        } else        {            SceneManager.LoadScene(1);            currentHealth = maxHealth;            Debug.Log("Player health " + currentHealth + " Player lives " + currentLives);        }    }
@@ -51,4 +52,6 @@ public class PlayerController : MonoBehaviour
 
 
     void Fire()    {        GameObject bulletInstance = Instantiate(Bullet, firePoint.position, firePoint.rotation);        bulletInstance.transform.localScale = transform.localScale * 0.19f;        bulletInstance.GetComponent<Rigidbody>().velocity = firePoint.forward * bulletSpeed;    }
+
+    void UseHealthPotion()    {        if (Manager.healthPotionNo > 0)        {            currentHealth += Manager.addHealthAmount;            if (currentHealth > maxHealth)            {                currentHealth = maxHealth;            }            healthBar.SetHealth(currentHealth);            Manager.healthPotionNo -= 1;        }    }
 }

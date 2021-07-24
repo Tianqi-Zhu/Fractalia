@@ -478,6 +478,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
+      propertyPath: chaseOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
       propertyPath: patrolMode
       value: 2
       objectReference: {fileID: 0}
@@ -495,6 +500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerRadius
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
+        type: 3}
+      propertyPath: standingDistance
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}

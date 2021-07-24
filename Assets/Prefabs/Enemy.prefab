@@ -132,11 +132,15 @@ MonoBehaviour:
   Terminal: {fileID: 2826634663290531442, guid: c7cbaaed35cbb40d7894b628336c3acc,
     type: 3}
   triggerRadius: 50
+  chaseOn: 1
+  standingDistance: 20
   fireRate: 3
   turnSpeed: 3
   moveSpeed: 10
   bulletSpeed: 30
   health: 50
+  patrolMode: 0
+  patrolSideLen: 0
   serialNo: 0
   terminalCenterText: 
   terminalLeftText: 
@@ -146,7 +150,6 @@ MonoBehaviour:
   - {fileID: 3737848751737846293}
   - {fileID: 8909987575256570319}
   - {fileID: 7891287095238657917}
-  movePoints: []
 --- !u!1 &2808470564569978647
 GameObject:
   m_ObjectHideFlags: 0
