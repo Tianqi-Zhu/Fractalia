@@ -757,6 +757,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1203123117}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1203123122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 90848227108866458, guid: 37cfd43b482214dcc86a7a557aa276cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1203123117}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1237258632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -839,6 +845,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1203123120}
+    - target: {fileID: 7153020416705656252, guid: 14b552b1c4cda489eb90c616ced5ba14,
+        type: 3}
+      propertyPath: shieldTimerUI
+      value: 
+      objectReference: {fileID: 1203123122}
     - target: {fileID: 7153020417738178780, guid: 14b552b1c4cda489eb90c616ced5ba14,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -1022,6 +1033,10 @@ MonoBehaviour:
   - 
   enemyBoolArr: 00000000000000
   combinedBoolArr: 00000000000000
+  addHealthAmount: 0
+  shiedDuration: 0
+  healthPotionNo: 0
+  shieldNo: 0
 --- !u!4 &1905358050
 Transform:
   m_ObjectHideFlags: 0

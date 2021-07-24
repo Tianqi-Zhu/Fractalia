@@ -656,6 +656,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 918343061}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &918343066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 90848227108866458, guid: 37cfd43b482214dcc86a7a557aa276cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 918343061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1294010107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -733,6 +739,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 918343064}
+    - target: {fileID: 7153020416705656252, guid: 14b552b1c4cda489eb90c616ced5ba14,
+        type: 3}
+      propertyPath: shieldTimerUI
+      value: 
+      objectReference: {fileID: 918343066}
     - target: {fileID: 7665416092871515165, guid: 14b552b1c4cda489eb90c616ced5ba14,
         type: 3}
       propertyPath: m_Enabled
