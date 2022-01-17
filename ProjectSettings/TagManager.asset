@@ -16,6 +16,9 @@ TagManager:
   - Collectibles
   - ShieldTimer
   - ViewTreeButton
+  - StoryCloseButton
+  - StoryCombineButton
+  - ReturnToMenuButton
   layers:
   - Default
   - TransparentFX

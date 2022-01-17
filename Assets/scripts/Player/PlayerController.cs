@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public int deathLoadScene;
     public float forwardSpeed;
     public float sideSpeed;
 
@@ -50,9 +51,9 @@ public class PlayerController : MonoBehaviour
 
     }    public void TakeDamage(float amount)    {        Debug.Log("Player health " + currentHealth + " Player lives " + currentLives);        if (!isInvincible)        {            currentHealth -= amount;            healthBar.SetHealth(currentHealth);        }        if (currentHealth <= 0f)        {            PartialDeath();        }    }
 
-    void PartialDeath()    {        lifeDots.DarkenDot();        currentLives = currentLives - 1;        if (currentLives <= 0)        {            CompleteDeath();        } else        {            SceneManager.LoadScene(1);            currentHealth = maxHealth;            Debug.Log("Player health " + currentHealth + " Player lives " + currentLives);        }    }
+    void PartialDeath()    {        lifeDots.DarkenDot();        currentLives = currentLives - 1;        if (currentLives <= 0)        {            CompleteDeath();        } else        {            SceneManager.LoadScene(deathLoadScene);            currentHealth = maxHealth;            Debug.Log("Player health " + currentHealth + " Player lives " + currentLives);        }    }
 
-    void CompleteDeath()    {        Manager.ResetGame();        SceneManager.LoadScene(1);        currentHealth = maxHealth;        currentLives = maxLives;    }
+    void CompleteDeath()    {        Manager.ResetGame();        SceneManager.LoadScene(deathLoadScene);        currentHealth = maxHealth;        currentLives = maxLives;    }
 
 
     void Fire()    {        GameObject bulletInstance = Instantiate(Bullet, firePoint.position, firePoint.rotation);        bulletInstance.transform.localScale = transform.localScale * 0.19f;        bulletInstance.GetComponent<Rigidbody>().velocity = firePoint.forward * bulletSpeed;    }

@@ -352,6 +352,7 @@ MonoBehaviour:
   shiedDuration: 5
   healthPotionNo: 0
   shieldNo: 0
+  tutFinished: 0
 --- !u!4 &456973256
 Transform:
   m_ObjectHideFlags: 0
@@ -448,6 +449,11 @@ PrefabInstance:
       propertyPath: shieldTimerUI
       value: 
       objectReference: {fileID: 119885643}
+    - target: {fileID: 7153020416705656252, guid: 14b552b1c4cda489eb90c616ced5ba14,
+        type: 3}
+      propertyPath: deathLoadScene
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14b552b1c4cda489eb90c616ced5ba14, type: 3}
 --- !u!4 &459666907 stripped
@@ -535,6 +541,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 15}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1022316494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1671282573}
+    m_Modifications:
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654725579698622938, guid: 5158f91eeb0fa445393d3f3b041af027,
+        type: 3}
+      propertyPath: m_Name
+      value: Boundary
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5158f91eeb0fa445393d3f3b041af027, type: 3}
+--- !u!4 &1022316495 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6671256100237662347, guid: 5158f91eeb0fa445393d3f3b041af027,
+    type: 3}
+  m_PrefabInstance: {fileID: 1022316494}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1190355692
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +646,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1671282573}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1190355694
 MonoBehaviour:
@@ -659,7 +740,7 @@ PrefabInstance:
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
       propertyPath: terminalCenterText
-      value: to be self-evident, that
+      value: "did many mortals ask us, \u201Chow could I craft a work that "
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -1039,7 +1120,7 @@ PrefabInstance:
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
       propertyPath: terminalCenterText
-      value: are Life, Liberty and
+      value: "and only the best Minds among you \u2014 those that enquire "
       objectReference: {fileID: 0}
     - target: {fileID: 2584713257694908973, guid: a6700693bb7f244939f57df2dbc93b2c,
         type: 3}
@@ -1428,6 +1509,7 @@ Transform:
   - {fileID: 1214374513}
   - {fileID: 5367990452641747013}
   - {fileID: 565137754355744614}
+  - {fileID: 1022316495}
   - {fileID: 1190355693}
   m_Father: {fileID: 0}
   m_RootOrder: 1
