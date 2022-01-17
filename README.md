@@ -11,6 +11,8 @@ by [Zhu Tianqi](https://github.com/Tianqi-Zhu) and [Zhao Jinxin](https://github.
 
 ### Game Link: [Try it Here!](https://tianqi-zhu.github.io/Fractalia_3)
 
+### Or watch our demo video [Here](https://drive.google.com/file/d/1Aq8IbRXraJQ2F-DDUuxMIJeagVrlfLha/view?usp=sharing)
+
 ## Motivation: 
 *Recursion*, beautiful and charming in Nature and Mathematics, is the best friend (worst nightmare) for many CS students, especially those in NUS. 
 Inspired by the interesting missions and quests throughout our CS modules, we decided to design a game to demonstrate the fun aspects and the beauty of recursion through fractals.
