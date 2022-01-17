@@ -67,5 +67,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# MacOS files
+# MacOS
 .DS_Store
+
+# Windows
+Thumbs.db
+Thumbs.db.meta

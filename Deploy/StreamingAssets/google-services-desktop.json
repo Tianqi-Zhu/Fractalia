@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295997356818",
+    "project_id": "fractalia-28eaa",
+    "storage_bucket": "fractalia-28eaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295997356818:android:d05b0f2691a501f33551cb",
+        "android_client_info": {
+          "package_name": "com.RecursePhilia.Fractalia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295997356818-0ihvgpn3sdq9n49rjss78torv6iulccs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-xnX7bBSVg01YTjHtlpEfkPijBgiaIHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295997356818-0ihvgpn3sdq9n49rjss78torv6iulccs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
