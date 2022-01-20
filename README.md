@@ -9,7 +9,7 @@ by [Zhu Tianqi](https://github.com/Tianqi-Zhu) and [Zhao Jinxin](https://github.
 
 ![Fractalia](images/start.png)
 
-### Game Link: [Try it Here!](https://tianqi-zhu.github.io/Fractalia_3)
+### Game Link: [Try it Here!](https://tianqi-zhu.github.io/Fractalia)
 
 ### Or watch our demo video [Here](https://drive.google.com/file/d/1Aq8IbRXraJQ2F-DDUuxMIJeagVrlfLha/view?usp=sharing)
 
